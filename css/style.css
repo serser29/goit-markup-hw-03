@@ -108,6 +108,7 @@ ul {
 
 .address {
   font-style: normal;
+  padding: 24px 0;
 }
 
 .address-cont {
@@ -126,7 +127,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding: 24px 0;
 }
 
 .address-cont-mail:hover,
