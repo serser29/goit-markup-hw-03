@@ -19,6 +19,9 @@ ul {
 .list {
   list-style: none;
   padding: 24px 1169px 156px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 :root {
@@ -32,9 +35,20 @@ ul {
 *,
 *::before,
 *::after {
+  box-sizing: border-box;
 }
 
 /**----------------HEADER-------------**/
+
+.container {
+  display: flex;
+}
+
+.header-container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
 .header {
   position: absolute;
@@ -42,6 +56,7 @@ ul {
   height: 72px;
   left: 0px;
   top: 0px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
@@ -53,6 +68,11 @@ ul {
   color: var(--web-color);
   text-transform: uppercase;
   padding: 24px 76px 156;
+  margin-right: 76px;
+}
+
+.header-top-list {
+  padding: 24px 0;
 }
 
 .nav-head-log {
@@ -84,6 +104,11 @@ ul {
 
 .address {
   font-style: normal;
+}
+
+.address-cont {
+  display: flex;
+  gap: 40px;
 }
 
 .address-cont-mail {
