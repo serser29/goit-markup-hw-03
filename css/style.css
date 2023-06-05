@@ -71,7 +71,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--web-color);
   text-transform: uppercase;
-  padding: 24px 76px 156;
+  padding: 24px 0;
   margin-right: 76px;
 }
 
@@ -118,7 +118,6 @@ ul {
 .address-cont-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .address-cont-mail {
