@@ -4,6 +4,10 @@ body {
   background-color: var(--main_color);
 }
 
+img {
+  display: block;
+}
+
 a {
   text-decoration: none;
 }
