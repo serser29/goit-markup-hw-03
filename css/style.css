@@ -113,6 +113,12 @@ ul {
 .address-cont {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
+}
+
+.address-cont-list {
+  display: flex;
+  gap: 40px;
 }
 
 .address-cont-mail {
