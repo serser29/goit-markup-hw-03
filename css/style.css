@@ -73,9 +73,6 @@ ul {
   text-transform: uppercase;
   padding: 24px 0;
   display: inline-block;
-  margin-right: 76px;
-
-  margin-bottom: 16px;
 }
 
 .header-top-list {
@@ -150,7 +147,6 @@ ul {
 
 .hero {
   background: #2e2f42;
-  padding: 188px 0;
 }
 
 .hero-title {
