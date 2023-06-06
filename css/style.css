@@ -137,9 +137,11 @@ ul {
 }
 
 .address-cont {
+  display: flex;
 }
 
 .address-cont-list {
+  gap: 40px;
 }
 
 .address-cont-mail {
