@@ -77,13 +77,11 @@ ul {
 .header-nav {
   display: flex;
   align-items: center;
-  flex-grow: 1;
 }
 
 .nav-list {
   display: flex;
   align-items: center;
-  margin-right: auto;
   gap: 40px;
 }
 
