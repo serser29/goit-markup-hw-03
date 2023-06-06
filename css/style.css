@@ -217,9 +217,15 @@ ul {
 
 .plan {
   padding: 120px 0;
+  display: flex;
+  gap: 24px;
 }
 
 .visually-hidden {
+}
+
+.ourteam-list {
+  width: calc((100% - 72px) / 4);
 }
 
 .ourteam-plan-list {
@@ -228,6 +234,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .ourteam-list-text {
   font-weight: 400;
