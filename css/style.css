@@ -70,6 +70,7 @@ ul {
 .header-container {
   display: flex;
   align-items: center;
+  flex-grow: 1;
 }
 
 .header-nav {
@@ -82,7 +83,8 @@ ul {
 .nav-list {
   display: flex;
   gap: 40px;
-  margin: 0 0 0 76px;
+  margin-left: 76px;
+  margin-right: auto;
 }
 
 .header-logo {
@@ -132,11 +134,11 @@ ul {
 
 .address {
   font-style: normal;
-  margin-left: auto;
 }
 
 .address-cont {
   display: flex;
+  gap: 40px;
 }
 
 .address-cont-mail {
@@ -213,9 +215,12 @@ ul {
 /**----------------OUR TEAM-------------**/
 
 .plan {
-  padding: 120px 0;
   display: flex;
   gap: 24px;
+  padding: 120px 0;
+}
+
+.ourteam-list {
 }
 
 .ourteam-list {
