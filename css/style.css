@@ -132,14 +132,11 @@ ul {
 
 .address {
   font-style: normal;
-  align-items: center;
-  margin-left: 332px;
+  margin-left: auto;
 }
 
 .address-cont {
-}
-
-.address-cont-list {
+  display: flex;
 }
 
 .address-cont-mail {
@@ -219,9 +216,6 @@ ul {
   padding: 120px 0;
   display: flex;
   gap: 24px;
-}
-
-.visually-hidden {
 }
 
 .ourteam-list {
