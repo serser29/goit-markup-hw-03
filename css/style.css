@@ -222,7 +222,7 @@ ul {
   padding: 120px 0;
 }
 
-.plan-list {
+.plan-cont {
   display: flex;
   gap: 24px;
 }
@@ -265,6 +265,19 @@ ul {
 
 /**----------------OUR INFO-------------**/
 
+.ourinfo {
+  padding-bottom: 120px;
+}
+
+.ourinfo-cont {
+  display: flex;
+  gap: 24px;
+}
+
+.ourinfo-list {
+  width: calc((100% - 48px) / 3);
+}
+
 .section-ourteam {
   background-color: #f4f4fd;
 }
@@ -282,6 +295,7 @@ ul {
   text-transform: capitalize;
   color: #2e2f42;
   background-color: #ffffff;
+  margin-bottom: 72px;
 }
 
 .our-info-name {
