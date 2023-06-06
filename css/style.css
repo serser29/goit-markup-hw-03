@@ -42,7 +42,7 @@ ul {
 }
 
 .container {
-  max-width: 1158;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
@@ -95,7 +95,7 @@ ul {
   text-transform: uppercase;
   padding: 24px 0;
   display: inline-block;
-  margin-right: 76;
+  margin-right: 76px;
 }
 
 .header-top-list {
@@ -132,20 +132,14 @@ ul {
 
 .address {
   font-style: normal;
-  display: flex;
-  gap: 40px;
   align-items: center;
   margin-left: 332px;
 }
 
 .address-cont {
-  display: flex;
-  gap: 40px;
 }
 
 .address-cont-list {
-  display: flex;
-  gap: 40px;
 }
 
 .address-cont-mail {
