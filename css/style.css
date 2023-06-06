@@ -65,6 +65,7 @@ ul {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 141px;
 }
 
 .header-container {
@@ -76,15 +77,14 @@ ul {
 .header-nav {
   display: flex;
   align-items: center;
-  margin-left: 156px;
-  margin-right: 76px;
+  flex-grow: 1;
 }
 
 .nav-list {
   display: flex;
-  gap: 40px;
-  margin-left: 76px;
+  align-items: center;
   margin-right: auto;
+  gap: 40px;
 }
 
 .header-logo {
@@ -134,10 +134,12 @@ ul {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .address-cont {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 
@@ -218,6 +220,19 @@ ul {
   display: flex;
   gap: 24px;
   padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .ourteam-list {
