@@ -239,9 +239,6 @@ ul {
 }
 
 .ourteam-list {
-}
-
-.ourteam-list {
   width: calc((100% - 72px) / 4);
 }
 
@@ -262,6 +259,10 @@ ul {
 }
 
 /**----------------OUR INFO-------------**/
+
+.ourinfo {
+  padding-bottom: 120px;
+}
 
 .section-ourteam {
   padding: 120px 0;
