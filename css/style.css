@@ -222,6 +222,11 @@ ul {
   padding: 120px 0;
 }
 
+.plan-list {
+  display: flex;
+  gap: 24px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
