@@ -328,6 +328,7 @@ ul {
 
 .footer {
   background-color: var(--color);
+  padding: 100px 0 100px;
 }
 
 .footer-logo-link {
@@ -338,6 +339,8 @@ ul {
   letter-spacing: 0.03em;
   color: var(--web-color);
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-link {
@@ -356,6 +359,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--foot-par);
+  max-width: 264px;
 }
 
 /**-------------PORTFOLIO---------------**/
