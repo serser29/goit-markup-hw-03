@@ -137,11 +137,9 @@ ul {
 }
 
 .address-cont {
-  display: flex;
 }
 
 .address-cont-list {
-  gap: 40px;
 }
 
 .address-cont-mail {
@@ -171,6 +169,7 @@ ul {
 .hero {
   background: #2e2f42;
   padding: 188px 0;
+  align-items: center;
 }
 
 .hero-title {
@@ -215,6 +214,13 @@ ul {
 }
 
 /**----------------OUR TEAM-------------**/
+
+.plan {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+}
 
 .ourteam-plan-list {
   font-weight: 500;
