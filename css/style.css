@@ -43,9 +43,9 @@ ul {
 
 .container {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1158;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 :root {
@@ -75,7 +75,8 @@ ul {
 
 .header-nav {
   display: flex;
-  margin: 0 156px;
+  align-items: center;
+  margin-left: 156px;
 }
 
 .nav-list {
@@ -134,7 +135,7 @@ ul {
   display: flex;
   gap: 40px;
   align-items: center;
-  margin: 24px 0;
+  margin-left: 332px;
 }
 
 .address-cont {
