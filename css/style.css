@@ -373,7 +373,7 @@ ul {
 
 .portfolio-main {
   padding-top: 96px;
-  padding-bottom: 120px;
+  padding-bottom: 72px;
 }
 
 .portfolio-cont {
@@ -383,18 +383,18 @@ ul {
   margin-bottom: 72px;
 }
 
-.just-row {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
-
 .portfolio-img {
   display: flex;
   gap: 24px;
   margin-bottom: 48px;
   flex-wrap: wrap;
+}
+
+.just-row {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portf-list {
