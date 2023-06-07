@@ -363,7 +363,7 @@ ul {
 
 /**-------------PORTFOLIO---------------**/
 
-.portfolio-name {
+.portfolio-main {
   padding: 96px 0 120px 0;
 }
 
@@ -372,6 +372,23 @@ ul {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+}
+
+.portfolio-img {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portf-list {
+  width: calc((100% - 48px) / 3);
+}
+
+.portf-apps {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .bttns-name {
@@ -406,6 +423,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color);
+  margin-bottom: 8px;
 }
 
 .ourteam-list-text {
