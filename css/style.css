@@ -380,6 +380,7 @@ ul {
 .just-row {
   display: flex;
   gap: 24px;
+  margin-bottom: 48px;
 }
 
 .portfolio-img {
