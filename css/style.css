@@ -167,12 +167,13 @@ ul {
   background: #2e2f42;
   padding: 188px 0;
   align-items: center;
-  justify-content: center;
+  display: flex;
+  text-align: center;
 }
 
 .hero-content {
-  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .hero-title {
@@ -201,7 +202,7 @@ ul {
 }
 
 .button-hero {
-  display: block;
+  display: inline;
   min-width: 169px;
   height: 56px;
   border: none;
