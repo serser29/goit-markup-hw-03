@@ -302,7 +302,6 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  background-color: #ffffff;
   margin-bottom: 72px;
 }
 
@@ -364,6 +363,17 @@ ul {
 
 /**-------------PORTFOLIO---------------**/
 
+.portfolio-name {
+  padding: 96px 0 120px 0;
+}
+
+.portfolio-cont {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
 .bttns-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -373,16 +383,21 @@ ul {
   cursor: pointer;
   color: var(--web-color);
   background: var(--foot-par);
+  padding: 12px 24px 12px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .bttns-name:hover,
 .bttns-name:focus {
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 .bttns-name:hover,
 .bttns-name:focus {
   background: #404bbf;
+  border: 1px solid transparent;
 }
 
 .ourteam-plan-list {
