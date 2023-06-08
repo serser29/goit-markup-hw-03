@@ -372,8 +372,7 @@ ul {
 /**-------------PORTFOLIO---------------**/
 
 .portfolio-main {
-  padding-top: 96px;
-  padding-bottom: 72px;
+  padding: 96px 0 120px 0;
 }
 
 .portfolio-cont {
